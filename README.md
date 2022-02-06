@@ -14,6 +14,7 @@ the last two props can be made dynamic depending on the value
 
 ### Example
 ...
+
     import { useState } from 'react';
     import { Switcher } from 'switcher';
 
