@@ -3,7 +3,9 @@ It is a react component package that toggles on true/false value.
 
 ## Installation
 ...
+
 npm i switcher
+
 ...
 
 ## Usage
@@ -16,6 +18,7 @@ the last two props can be made dynamic depending on the value
 
 ### Example
 ...
+
 import { useState } from 'react';
 import { Switcher } from 'switcher';
 
