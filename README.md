@@ -15,42 +15,42 @@ the last two props can be made dynamic depending on the value
 ### Example
 ...
 
-import { useState } from 'react';
-import { Switcher } from 'switcher';
+    import { useState } from 'react';
+    import { Switcher } from 'switcher';
 
-function App() {
-    const [val, setVal] = useState(false);
+    function App() {
+        const [val, setVal] = useState(false);
 
-    const toogleSwitch=()=>{
-        setVal(!val);
-    }
-    
-    return (
-    <>
-        <div
-            style={{
-                margin: '20px',
-                width:'200px',
-                height:'100px',
-                background: val ? "#cdc" : '#444',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-            }}
-        >
+        const toogleSwitch=()=>{
+            setVal(!val);
+        }
+        
+        return (
+        <>
             <div
-                onClick={toogleSwitch}
+                style={{
+                    margin: '20px',
+                    width:'200px',
+                    height:'100px',
+                    background: val ? "#cdc" : '#444',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                }}
             >
-                <Switcher
-                    value={val}
-                    tractColor={val ? "red" : "black"}
-                    thumbColor={val ? "black" : "red"}
-                />
+                <div
+                    onClick={toogleSwitch}
+                >
+                    <Switcher
+                        value={val}
+                        tractColor={val ? "red" : "black"}
+                        thumbColor={val ? "black" : "red"}
+                    />
+                </div>
             </div>
-        </div>
-    </>
-    );
-}
+        </>
+        );
+    }
 
-export default App;
+    export default App;
 ...
