@@ -1,5 +1,5 @@
 {
-  "name": "switcher",
+  "name": "mo_switcher",
   "version": "1.0.0",
   "description": "button toggles as value changes between true and false on click",
   "main": "dist/index.js",

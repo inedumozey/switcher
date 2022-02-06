@@ -2,7 +2,7 @@
 It's a react component package that toggles on a true and false value.
 
 ## Installation
-`npm i switcher`
+`npm i mo_switcher`
 
 ## Usage
 Receives 3 props;
@@ -16,7 +16,7 @@ the last two props can be made dynamic depending on the value
 ...
 
     import { useState } from 'react';
-    import { Switcher } from 'switcher';
+    import { Switcher } from 'mo_switcher';
 
     function App() {
         const [val, setVal] = useState(false);
