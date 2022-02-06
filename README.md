@@ -5,8 +5,8 @@ It's a react component package that toggles on a true and false value.
 `npm i switcher`
 
 ## Usage
-Recieves 3 props;
-* value: which can either be true or false to toggle the switch. A click event can be maden on a wrapper of the Switch component to switch between true and false
+Receives 3 props;
+* value: which can either be true or false to toggle the switch. A click event can be made on a wrapper that wraps the Switch component to switch between true and false
 * thumbColor: color of the thumb
 * tractColor: color 0f the tract
 
