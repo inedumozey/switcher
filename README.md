@@ -1,12 +1,8 @@
 ## Switcher
-It is a react component package that toggles on true/false value.
+It's a react component package that toggles on a true and false value.
 
 ## Installation
-...
-
-npm i switcher
-
-...
+`npm i switcher`
 
 ## Usage
 Recieves 3 props;
@@ -57,5 +53,4 @@ function App() {
 }
 
 export default App;
-
 ...

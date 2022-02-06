@@ -37,5 +37,4 @@ function Switcher({ value, thumbColor, tractColor }){
         </div>
     );
 }
-
 export default Switcher;
